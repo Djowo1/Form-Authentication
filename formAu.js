@@ -30,7 +30,7 @@ logInBtn.addEventListener('click', () => {
 
 
 logInFormBtn.addEventListener('click', () => {
-    window.location.href = 'fitnesspage.html';
+    window.location.href = '../SureFit Website/fitnesspage.html';
 });
 
 // Password visibility toggle for all password fields
@@ -87,8 +87,9 @@ signUpFormBtn.addEventListener('click', () => {
         alert('Passwords do not match!');
     } else {
         alert('Sign Up Successful!');
+
         // Redirect to the fitness page (Ensure the file path is correct)
-        window.location.href = 'fitnesspage.html';
+        window.location.href = '../SureFit Website/fitnesspage.html';
     }
 
     
