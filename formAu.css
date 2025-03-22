@@ -9,6 +9,8 @@ body {
     background-image: url("gina-lin-m27OTMegUyA-unsplash.jpg");
     background-size: cover;
     font-family: cursive;
+    background-repeat: no-repeat;
+    height: 1000px;
 }
 
 a {
@@ -22,13 +24,9 @@ main {
     margin: 100px auto 0;
     max-width: 800px;
     overflow: hidden;
-    top: 2000px;
-
-  
-    
+    top: 2000px;    
     transition: all 0.3s ease;
-   animation: float 2s infinite ease-in-out;
-   
+   animation: float 2s infinite ease-in-out;   
 }
 
 main > * {
@@ -47,13 +45,10 @@ main > * {
     font-size: 25px;
     background-color: #009688;
     height: 200px;
-    border-radius: 200px;
-   
+    border-radius: 200px;   
     box-shadow: 1px 8px 9px rgb(0, 150, 136);
-    
     transition: all 0.3s ease;
     animation: slideIn 1.5s ease-out;
-
 }
 
 .login > button,
@@ -65,25 +60,20 @@ main > * {
 
 .login {
     grid-column: 1 /2;
-
 }
 
 .signup {
     grid-column: 2 /3;
-
 }
 
 .login-form {
     grid-column: 1 /2;
-    transform: translateX(-100%);
-    
-
+    transform: translateX(-100%);   
 }
 
 .signup-form {
     grid-column: 2 / 3;
     transform: translateX(100%);
-
 }
 
 h2  {
@@ -99,9 +89,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: transform 0.5s;
-    
-
+    transition: transform 0.5s;   
 }
 
 form.active {
@@ -116,8 +104,7 @@ form.active {
     background: rgb(255, 255, 255);
     z-index: 5;
     transition: clip-path 0.3s;
-    border-radius: 15px;
-   
+    border-radius: 15px;   
 }
 
 .back-layer button{
@@ -143,7 +130,6 @@ input:focus {
  border-color: darkred;
 }
 
-
 label {
     font-weight: normal;
 }
@@ -158,15 +144,13 @@ button{
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
-  
+    border-radius: 5px;  
 }
 
 form button:hover{
     background-color:  #009688 ;
     color: #fff;
 }
-
 
 .yam {
     font-size: 20px;
@@ -200,7 +184,6 @@ form button:hover{
         max-width: 90%;
         overflow: hidden;
     }
-
    
     form{
         padding: 30px 20px;
@@ -211,9 +194,7 @@ form button:hover{
         flex-direction: column;
         justify-content: center;
         transition: transform 0.5s;
-        font-size: 10px;
-        
-    
+        font-size: 10px;           
     }
 
     input {
@@ -228,8 +209,7 @@ form button:hover{
     
     input:focus {
      border-color: darkred;
-    }
-    
+    }    
     
     label {
         font-weight: normal;
@@ -245,15 +225,13 @@ form button:hover{
         font-weight: 600;
         font-size: 16px;
         cursor: pointer;
-        border-radius: 5px;
-      
+        border-radius: 5px;      
     }
 
 h2  {
     text-align: center;
     font-size: 26px;
 }
-
 
 .yam {
     font-size: 20px;
@@ -274,13 +252,10 @@ h2  {
     margin-left: 160px;
     width: fit-content;
     cursor: pointer;
-    color:  #009688;
-  
+    color:  #009688;  
 }
 
 }
-
-
 
 @media (min-width: 601px) and (max-width: 1024px) {
     main {
@@ -291,7 +266,6 @@ h2  {
         max-width: 90%;
         overflow: hidden;
     }
-
    
     form{
         padding: 30px 20px;
@@ -302,9 +276,7 @@ h2  {
         flex-direction: column;
         justify-content: center;
         transition: transform 0.5s;
-        font-size: 10px;
-        
-    
+        font-size: 10px;           
     }
 
     input {
@@ -320,8 +292,7 @@ h2  {
     input:focus {
      border-color: darkred;
     }
-    
-    
+        
     label {
         font-weight: normal;
     }
@@ -370,7 +341,6 @@ cursor: pointer;
 }
 
 }
-
 
 /* Animations */
 @keyframes slideIn {
@@ -429,9 +399,7 @@ cursor: pointer;
 @keyframes bounceIn {
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
     40% {transform: translateY(-20px);}
-
 }
-
 
 @media (max-width:513px){
 
@@ -452,45 +420,36 @@ cursor: pointer;
         box-shadow: 1px 8px 9px rgb(0, 150, 136);
         width: 150px;
         transition: all 0.3s ease;
-        animation: slideIn 1.5s ease-out;
-    
+        animation: slideIn 1.5s ease-out;    
     }
     
     .login > button,
     .signup > button {
         border: none;
         background-color: beige;
-        border-radius: 9px;
-       
-       
+        border-radius: 9px;            
     }
     
     .login {
         grid-column: 1 /2;
-        margin-left: 30px;
-        
+        margin-left: 30px;        
     
     }
     
     .signup {
         grid-column: 2 /3;
         margin-right: 170px;
-        margin-left: -10px;
-    
+        margin-left: -10px;    
     }
     
     .login-form {
         grid-column: 1 /2;
-        transform: translateX(-100%);
-      
-    
+        transform: translateX(-100%);         
     }
     
     .signup-form {
         grid-column: 2 / 3;
-        transform: translateX(100%);
-        
-    
+        transform: translateX(100%);            
     }
     
     h2  {
@@ -507,9 +466,7 @@ cursor: pointer;
         flex-direction: column;
         justify-content: center;
         transition: transform 0.5s;
-        width: 5px;
-        
-    
+        width: 5px;           
     }
     
     form.active {
@@ -581,7 +538,6 @@ cursor: pointer;
     margin-left: 65px;
     width: 120px;
     }
-
  
     .signup {
         grid-column: 2 /3;
@@ -592,16 +548,12 @@ cursor: pointer;
     
     .login-form {
         grid-column: 1 /2;
-        transform: translateX(-100%);
-        
-    
+        transform: translateX(-100%);         
     }
     
     .signup-form {
         grid-column: 2 / 3;
-        transform: translateX(100%);
-        
-    
+        transform: translateX(100%);            
     }
     
     h2  {
@@ -619,9 +571,7 @@ cursor: pointer;
         flex-direction: column;
         justify-content: center;
         transition: transform 0.5s;
-        width: 5px;
-        
-    
+        width: 5px;            
     }
     
     form.active {
