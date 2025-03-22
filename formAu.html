@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterNow/SignIn</title>
+
+    <link rel="stylesheet" href="formAu.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <main>
+<div class="signup">
+    <span>Not a member?</span>
+    <button type="button" class="sign-up-btn">Sign Up</button>
+</div>
+<div class="login">
+    <span>Already have an account?</span>
+    <button type="button">Login</button>
+</div>
+
+<div class="back-layer">
+    <div class="win"> 
+<form action="" class="login-form active" >
+    <h2 class="login-label">Login</h2>
+    <input type="email" id="lemail" placeholder="📧 Email"  required  autocomplete="on">
+    <input type="password" id="lpassword" required placeholder="🔐 Password">
+
+    <i class='bx bxs-low-vision yam' id="togglePassword1" align="right"></i>
+<br>
+    <button class="btn12" type="button">Login</button>
+</form></div>
+
+<div class="go"> <form action="" class="signup-form">
+    <h2>Sign Up</h2>
+    <input type="text" id="f-name" placeholder="👨🏻 First Name">
+    <input type="text" id="l-name" placeholder="👨🏻 Last Name">
+    <input type="email" id="semail" placeholder="📧 Email">
+    <input type="password" id="spassword1" placeholder="🔐 Password">
+    <i class='bx bxs-low-vision yam1' id="togglePassword2" align="right"></i>
+    <input type="password" id="spassword2" placeholder="🔐 Confirm Password">
+    <i class='bx bxs-low-vision yam1' id="togglePassword3" align="right"></i>
+    <button class="btn11" type="button">Sign Up</button>
+</form></div>
+</div>
+  </main>   
+    <script src="formAu.js"></script>
+</body>
+</html>
